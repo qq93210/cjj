@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel='shortcut icon' href="./imgs/favicon.ico">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="css/sweetalert2.min.css">
+	<script src='js/jquery.min.js'></script>
+	<script src='js/login.js'></script>
+	<script src="js/sweetalert2.min.js"></script>
+</head>
+<body>
+<!-- logo -->
+	<div class="logo">
+		<img src="imgs/nav-logo.png" alt="">
+	</div>
+	<!-- 登录框 -->
+	<div class="load">
+		<div class="use">用户登录</div>
+		<div class="user">
+			<i class="icon iconfont icon-yonghu"></i>
+			<input type="text" placeholder="用户名" id="usen">
+			<span style="color:red" id="useInfo">用户名必填</span>
+		</div>
+		<div class="pass">
+			<i class="icon iconfont icon-mm"></i>
+			<input type="password" placeholder="密码" id="password">
+			<img src="imgs/no-eye.png" id="eye">
+			<span style="color:red" id="passInfo">密码必填</span>
+		</div>
+		
+		<div class="num">
+			<input type="text" placeholder="验证码" id="codeInfo">
+			<span id="code">点击获取验证码</span>
+
+		</div>
+		<div class="chang">看不清？换图片
+		<span id="codesInfo" style="color:red">验证码必填</span>
+		</div>
+		<div class="lign">
+			登录
+		</div>
+		<div class="word">
+			<a href="register.html" target="_blank"><span>用户注册</span></a>
+			<a href="#"><span class="one">忘记密码?</span></a>		
+		</div>
+	</div>
+</body>
+</html>

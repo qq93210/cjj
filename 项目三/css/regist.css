@@ -1,0 +1,286 @@
+html{
+	height:100%;
+	min-width: 500px;
+}
+body{
+	background: url(../imgs/login_background.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+/* logo */
+.logo{
+	width:500px;
+	height: 60px;
+	/* border: 1px solid #000; */
+	
+}
+.logo img{
+	width:32%;
+	height: 70%;
+	margin:10px 60px;
+}
+/* 注册框 */
+.load{
+	width:420px;
+	height:520px;
+	/* border: 1px solid #000; */
+	background: white;
+	border-top:3px solid #CD5C5C;
+	box-shadow: -2px -2px 10px gray;
+	position: absolute;
+	right:7%;
+	bottom:12%;
+}
+.load .use{
+	width:100px;
+	height: 25px;
+	border-left: 3px solid #CD5C5C;
+	margin-left:45px;
+	margin-top:20px;
+	text-align:center;
+	font-weight:bold;
+}
+.load .user{
+	width:350px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius:5px;
+	margin-left: 35px;
+	margin-top:20px;
+}
+.load .user span{
+	display: inline-block;
+	width: 220px;
+	height: 30px;
+	/* border: 1px solid #000; */
+	margin-top: 2px;
+}
+.load .user i{
+	display:inline-block;
+	width:50px;
+	height: 100%;
+	border-right: 2px solid gray;
+	font-size:25px;
+	text-align:center;
+	line-height:40px;
+	background:#ccc;
+	
+}
+
+.load .user input{
+	width:200px;
+	height:100%;
+	/* border: 1px solid #000; */
+	font-size:18px;
+	vertical-align:top;
+
+}
+.load .two{
+	width:200px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius:5px;
+	/* margin:auto; */
+	margin-top:40px;
+	margin-left:35px;
+}
+.load .two span{
+	display: inline-block;
+	width: 220px;
+	height: 30px;
+	/* border: 1px solid #000; */
+	margin-top: 2px;
+}
+.load .two i{
+	display:inline-block;
+	width:50px;
+	height: 100%;
+	border-right: 2px solid gray;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	background:#ccc;
+	
+}
+.load .two input{
+	width:100px;
+	height:100%;
+	/* border: 1px solid #000; */
+	
+	vertical-align:top;
+}
+.load .huoqu{
+	width:100px;
+	height: 40px;
+	/* border: 2px solid #000; */
+	border-radius:5px;
+	/* margin:auto; */
+	margin-top:-42px;
+	margin-left:250px;
+	background: red;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+}
+.load .pass{
+	width:300px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius:5px;
+	/* margin:auto; */
+	margin-top:38px;
+	margin-left:35px;
+
+}
+.load .pass span{
+	display: inline-block;
+	width: 220px;
+	height: 30px;
+	/* border: 1px solid #000; */
+	margin-top: 2px;
+}
+.load .pass i{
+	display:inline-block;
+	width:50px;
+	height: 100%;
+	border-right: 2px solid gray;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	background:#ccc;
+	
+}
+
+.load .pass input{
+	width:200px;
+	height:100%;
+	/* border: 1px solid #000; */
+	font-size:18px;
+	vertical-align:top;
+}
+.load .pass img{
+	width:10%;
+	height:20px;
+	/* border: 1px solid #000; */
+	/* vertical-align:center; */
+	/* line-height:30px; */
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+.load .pass-r{
+	width:300px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius:5px;
+	/* margin:auto; */
+	margin-top:40px;
+	margin-left:35px;
+
+}
+.load .pass-r i{
+	display:inline-block;
+	width:50px;
+	height: 100%;
+	border-right: 2px solid gray;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	background:#ccc;
+	
+}
+
+.load .pass-r input{
+	width:200px;
+	height:100%;
+	/* border: 1px solid #000; */
+	font-size:18px;
+	vertical-align:top;
+}
+.load .pass-r img{
+	width:10%;
+	height:20px;
+	/* border: 1px solid #000; */
+	/* vertical-align:center; */
+	/* line-height:30px; */
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+.load .lign{
+	width:350px;
+	height: 40px;
+	/* border: 2px solid black; */
+	border-radius:5px;
+	margin:auto;
+	margin-top:38px;
+	background:red;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	cursor:pointer;
+}
+.load .word{
+	width:360px;
+	height: 25px;
+	/* border: 2px solid black; */
+	border-radius:5px;
+	margin:auto;
+	/* margin-top:38px; */
+}
+.load .word span{
+	font-size:13px;
+	color:blue;
+	cursor:pointer;
+}
+.load .word .one{
+	display:inline-block;
+	text-align:right;
+	margin-left:40px;
+	/* border: 1px solid #000; */
+	color:black;
+}
+/* 失败界面 */
+.falut{
+	width: 380px;
+	height: 400px;
+	/* border: 1px solid #000; */
+	background: pink;
+	/* position: absolute; */
+	margin-top: 250px;
+	margin-left: 350px;
+	border-radius: 10px;
+	display: none;
+}
+.falut p{
+	font-size: 50px;
+	text-align: center;
+	/* border: 1px solid #000; */
+	margin-top: 100px;
+}
+.falut input{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 160px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

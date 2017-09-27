@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="js/common.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		window.onload=function(){
+			var swiper = new Swiper('.swiper-container', {
+        		pagination: '.swiper-pagination',
+        		paginationClickable: true,
+        		autoplay:2000,
+        		loop:true,
+        		autoplayDisableOnInteraction : false,
+    		});
+    		show();
+			setInterval(show,1000)
+		}
+		function mores(){
+				var a=document.getElementById("hids");
+				if(a.style.display=="none"){
+					a.style.display="block";
+
+				}
+				else {
+					a.style.display="none";
+
+				}
+		}
+		function show(){
+			var ondate=new Date();
+			var date=30-ondate.getDate();
+			var hour=24-ondate.getHours();
+			var min=60-ondate.getMinutes();
+			var se=60-ondate.getSeconds();
+			if(date<10){
+				date="0"+date;
+			}
+			if(hour<10){
+				hour="0"+hour;
+			}
+			if(min<10){
+				min="0"+min;
+			}
+			if(se<10){
+				se="0"+se;
+			}
+			document.getElementById("hour").innerHTML=hour;
+			document.getElementById("min").innerHTML=min;
+			document.getElementById("sec").innerHTML=se;
+			
+	}
+	
+	
+
+	</script>
+</head>
+<body>
+    <!-- 头部 -->
+	<div class="heade">
+		<div class="search">
+			<i class="icon iconfont icon-jd"></i>
+			<i class="icon iconfont icon-search"></i>
+			<input type="text"  placeholder="9.11大闸蟹超级单品日">
+		</div>
+		<div class="deng">登录</div>	
+	</div>
+	<!-- 轮播图 -->
+	<div class="photo">
+		 <!-- Swiper -->
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/bg-1.jpg" ></div>
+	            <div class="swiper-slide"><img src="images/bg-2.jpg" ></div>
+	            <div class="swiper-slide"><img src="images/bg-3.jpg" ></div>
+	            <div class="swiper-slide"><img src="images/bg-4.jpg" ></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	</div>
+	<!-- 选择按钮 -->
+	<div class="icons">
+		<div> 
+			<img src="images/shop.png" > 
+			<p>京东超市</p>	
+		</div>
+		<div>
+			 <img src="images/logo.png" > 
+			 <p>全球购</p>
+		</div>
+		<div> 
+			<img src="images/cloth.png" > 
+			<p>服装城</p>
+		</div>
+		<div> 
+			<img src="images/shenxian.png" > 
+			<p>京东生鲜</p>
+		</div>
+		<div> 
+			<img src="images/hours.png" > 
+			<p>京东到家</p>
+		</div>
+		<div> 
+			<img src="images/in.png" > 
+			<p>充值缴费</p>
+		</div>
+		<div> 
+			<img src="images/bean.png" >
+			<p>领京豆	</p> 
+		</div>
+		<div> 
+			<img src="images/iphone.png" > 
+			<p>领券</p>
+		</div>
+		<div> 
+			<img src="images/mony.png" >
+			<p>惠赚钱</p> 
+		</div>
+		<div> 
+			<img src="images/go.png" > 
+			<p>物流查询</p>
+		</div>
+	</div>
+	<!-- 秒杀 -->
+	<div class="kill">
+		<div class="time">
+			<div >
+				<img src="images/jd.png">
+			</div>
+			<div >
+				<span class="eight">18点场</span>
+			</div>
+			<div class="settime">
+				<span id="hour"></span>
+				<span>:</span>
+				<span id="min"></span>
+				<span>:</span>
+				<span id="sec"></span>
+			</div>
+			<div class="bord">
+				<span class="scro">京东尖货轮番炒></span>
+			</div>
+		</div>
+		<div class="main">
+			<div>
+				<img src="images/book.jpg">
+				<p>￥:18.8</p>
+				<p>￥:20.0</p>
+			</div>
+			<div>
+				<img src="images/chuan.jpg" >
+				<p>￥:188.0</p>
+				<p>￥:200.0</p>
+			</div>
+			<div>
+				<img src="images/jiqi.jpg" >
+				<p>￥:88.0</p>
+				<p>￥:90.0</p>
+			</div>
+			<div>
+				<img src="images/jiu.jpg" >
+				<p>￥:108.0</p>
+				<p>￥:120.0</p>
+			</div>
+			<div>
+				<img src="images/shoubiao.jpg" >
+				<p>￥:50.0</p>
+				<p>￥:60.0</p>
+			</div>
+			<div>
+				<img src="images/smoke.jpg" >
+				<p>￥:70.0</p>
+				<p>￥:80.0</p>
+			</div>
+		</div>
+	</div>
+	<!-- 长条图 -->
+	<div class="cc">
+		<img src="images/long.jpg" >
+	</div>
+	<!-- 精选部分 -->
+	<div class="sele">
+		<div class="time">
+			<div>
+				发现好店
+			</div>
+			<div>
+				<img src="images/life.jpg">
+			</div>
+			<div class="bord">
+				<span class="scro">更多精彩></span>
+			</div>
+		</div>
+		<div class="life">
+			<div>
+				<p>闪购</p>
+				<p>好货就一元</p>
+				<img src="images/vivo.jpg">
+			</div>
+			<div>
+				<p>会买专辑</p>
+				<p>教你买买买</p>
+				<img src="images/red.jpg">
+			</div>
+			<div>
+				<p>新品首发</p>
+				<p>新品享免息</p>
+				<img src="images/lieesin.jpg" >
+			</div>
+		</div>
+	</div>	
+	<!-- 下拉部分 -->
+	<div class="every">
+		<div class="like">
+			<div>
+				猜你喜欢
+			</div>
+			<div>
+				<span>查看所有></span>
+			</div>
+		</div>
+		<div class="things">
+			<div>
+				<img src="images/150.jpg">
+				<span>【京东超市】【3件以上9.9】云蕾 加厚经济型清洁垃圾袋45*50cm 150只 13817</span>
+				<span>¥:12.90</span>
+			</div>
+			<div>
+				<img src="images/lunhua.jpg">
+				<span>美洲狮溜冰鞋儿童闪光轮滑鞋男女滑冰旱冰鞋全套装 黑红+护具+头盔+单肩包 M(可调31-36码)</span>
+				<span>¥:228.00</span>
+			</div>
+			<div>
+				<img src="images/water.jpg">
+				<span>【京东超市】水之密语（AQUAIR） 补水滋养 润唇膏（无味 无香料 无颜料）3g（资生堂旗下）</span>
+				<span>¥:29.00</span>
+			</div>
+			
+			<div class="hid" id="hids">
+				<img src="images/wazi.jpg">
+				<span>俞兆林袜子5双 男士防臭袜子四季棉袜中筒袜 中筒-纯色款</span>
+				<span>29.90</span>
+			</div>
+			<div class="more"  onclick="mores()">
+				点击查看更多内容>
+			</div>
+		</div>
+	</div>
+	<!-- 脚部 -->
+	<div class="foot">
+		<div><img src="images/a-recommend.png" width="70" height="54"></div>
+		<div><img src="images/n-catergry.png" width="70" height="54"></div>
+		<div><img src="images/n-find.png" width="70" height="54"></div>
+		<div><img src="images/n-cart.png" width="70" height="54"></div>
+		<div><img src="images/n-me.png" width="70" height="54"></div>
+	</div>
+	
+</body>
+</html>

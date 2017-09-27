@@ -1,0 +1,192 @@
+html{
+	height:100%;
+}
+body{
+	background: url(../imgs/login_background.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+/* logo */
+.logo{
+	width:500px;
+	height: 60px;
+	/* border: 1px solid #000; */
+	
+}
+.logo img{
+	width:32%;
+	height: 70%;
+	margin:10px 60px;
+}
+/* 登录框 */
+.load{
+	width:400px;
+	height:400px;
+	/* border: 1px solid #000; */
+	background: white;
+	border-top:3px solid #CD5C5C;
+	box-shadow: -2px -2px 5px gray;
+	position: absolute;
+	right:7%;
+	bottom:12%;
+}
+.load .use{
+	width:100px;
+	height: 25px;
+	border-left: 3px solid #CD5C5C;
+	margin-left:25px;
+	margin-top:20px;
+	text-align:center;
+	font-weight:bold;
+}
+.load .user{
+	width:350px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius:5px;
+	margin:auto;
+	margin-top:20px;
+}
+.load .user span{
+	width: 100px;
+	/* border: 1px solid #000; */
+	/* margin-top: 1px; */
+	display: inline-block;
+	/* margin-left: 0px; */
+}
+.load .user i{
+	display:inline-block;
+	width:50px;
+	height: 100%;
+	border-right: 2px solid gray;
+	font-size:25px;
+	text-align:center;
+	line-height:40px;
+	background:#ccc;
+	
+}
+.load .user input{
+	width:200px;
+	height:100%;
+	/* border: 1px solid #000; */
+	font-size:18px;
+	vertical-align:top;
+}
+.load .pass{
+	width:300px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius:5px;
+	/* margin:auto; */
+	margin-left:24px;
+	margin-top:38px;
+
+}
+.load .pass i{
+	display:inline-block;
+	width:50px;
+	height: 100%;
+	border-right: 2px solid gray;
+	font-size:25px;
+	text-align:center;
+	line-height:40px;
+	background:#ccc;
+	
+}
+
+.load .pass input{
+	width:200px;
+	height:100%;
+	/* border: 1px solid #000; */
+	font-size:18px;
+	vertical-align:top;
+}
+.load .pass img{
+	width:10%;
+	height:20px;
+	/* border: 1px solid #000; */
+	/* vertical-align:center; */
+	/* line-height:30px; */
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+.load .num{
+	width:230px;
+	height: 40px;
+	border: 2px solid black;
+	border-radius:5px;
+	/* margin:auto; */
+	margin-top:38px;
+	margin-left:24px;
+	background:red;
+}
+.load .num input{
+	width:135px;
+	height:100%;
+	font-size:18px;
+	padding-left:5px;
+	/* border: 1px solid #000; */
+}
+.load .num span{
+	/* width: 50px;
+	height: 30px; */
+	font-size:22px;
+	color: white;
+	margin-left: 20px;
+	/* display: inline-block; */
+	/* border: 1px solid #000; */
+	cursor:pointer;
+}
+.load .chang span{
+	width: 100px;
+	height: 25px;
+	display: block;
+	/* border: 1px solid #000; */
+	font-size: 14px;
+	margin-top: 15px;
+	margin-left: -245px;
+}
+.load .chang{
+	width:150px;
+	height:20px;
+	/* border: 1px solid #000; */
+	color:blue;
+	font-size:14px;
+	/* vertical-align:right; */
+	margin-left:270px;
+	margin-top:-32px;
+	cursor:pointer;
+}
+.load .lign{
+	width:350px;
+	height: 40px;
+	/* border: 2px solid black; */
+	border-radius:5px;
+	margin:auto;
+	margin-top:50px;
+	background:red;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	cursor:pointer;
+}
+.load .word{
+	width:360px;
+	height: 25px;
+	/* border: 2px solid black; */
+	border-radius:5px;
+	margin:auto;
+	/* margin-top:38px; */
+}
+.load .word span{
+	font-size:13px;
+	color:blue;
+	cursor:pointer;
+}
+.load .word .one{
+	display:inline-block;
+	text-align:right;
+	margin-left:240px;
+	/* border: 1px solid #000; */
+	cursor:pointer;
+}

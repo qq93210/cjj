@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel='shortcut icon' href="./imgs/favicon.ico">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/regist.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="css/sweetalert2.min.css">
+	<script src='js/jquery.min.js'></script>
+	<script src='js/regist.js'></script>
+	<script src="js/sweetalert2.min.js"></script>
+</head>
+<body>
+	<!-- logo -->
+	<div class="logo">
+		<img src="imgs/nav-logo.png" alt="">
+	</div>
+	<!-- 注册框 -->
+	<div class="load">
+		<div class="use">用户注册</div>
+		<div class="user">
+			<i class="icon iconfont icon-shouji"></i>
+			<input type="text" placeholder="手机号码" id="phone">
+			<span id="phoneInfo" style="color:red">用户名必填</span>
+		</div>
+
+		<div class="two">
+			<i class="icon iconfont icon-erweima"></i>
+			<input type="text" id="codeInfo" placeholder="请输入验证码">
+   			<span id="codeIn" style="color:red">验证码必填</span>
+		</div>
+		<div class="huoqu" id="code">
+			获取验证码
+
+		</div>
+		<div class="pass">
+			<i class="icon iconfont icon-mm"></i>
+			<input type="password" placeholder="登录密码" id="password">
+			<img src="imgs/no-eye.png" id="eye">
+			<span id="passwordInfo" style='color:red'>密码必填</span>
+		</div>
+		
+		<div class="pass-r">
+			<i class="icon iconfont icon-mm"></i>
+			<input type="password" placeholder="确认密码" id="passwords">
+			<img src="imgs/no-eye.png" id="eyes">
+			<span id="passwordsInfo" style="color:red">在输入密码</span>
+		</div>
+		<div class="lign" id="sub">
+			同意协议并提交
+		</div>
+		<div class="word">
+			<a href="login.html" target="_blank"><span>已注册？立即登录</span></a>
+			<span class="one">注册即同意<a href="#" style="color: blue">《伟达金云桥使用协议》</a></span>		
+		</div>
+	</div>
+	<div class="falut">
+		<p>注册失败</p>
+		<p>❌</p><br>
+		<input type="button" value="取消">
+	</div>
+</body>
+</html>

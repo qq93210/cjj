@@ -1,0 +1,437 @@
+/* 头部 */
+.heade{
+	width: 100%;
+	height: 0.6rem;
+	/* border: 1px solid #000; */
+	background: red;
+	position: fixed;
+	top:0;
+    z-index:10;
+ }
+.heade .search{
+	width: 5.0rem;
+	height: 0.45rem;
+	/* border: 1px solid #000; */
+	background: white;
+	border-radius:  15px;
+	padding: 0 0.1rem;
+	margin-left: 0.15rem;
+	margin-top:0.08rem; 
+	display: flex;
+	align-items:center;
+
+}
+.heade .search i:first-child{
+	/* border: 1px solid #000; */
+	color: red;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	margin-bottom: 0.1rem;
+	
+}
+.heade .search i:nth-child(2){
+	/* border: 1px solid #000; */
+	/* color: red; */
+	font-size: 0.3rem;
+	line-height:0.4rem;
+	margin-left: 0.1rem;
+}
+.heade .search input{
+	height: 0.3rem;
+	line-height: 0.1rem;
+	margin-left: 0.06rem;
+}
+.heade .deng{
+	position: absolute;
+	right: 0.3rem;
+	top: 0.2rem;
+	color: white;
+	font-size: 0.3rem;
+	line-height: 0.25rem;
+}
+/* 轮播图 */
+	.photo{
+		margin-top: 9.4%;
+		/* position: absolute;
+		top: 5.3%; */
+
+	}
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        z-index:1;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img{
+    	width: 100%;
+    	height: 100%;
+    }
+    /* 选择按钮 */
+    .icons{
+    	width: 100%;
+    	/* height: 2.5rem; */
+    	border-top: 3px solid #ccc;
+    	padding: 0.12rem 0.08rem;
+    	box-sizing:border-box;
+    	overflow: hidden;
+    	border-bottom: 3px solid #ccc;
+    	/* text-align: center; */
+    }
+    .icons div{
+		width: 1.2rem;
+		height: 1.1rem;
+		/* border: 1px solid #000; */
+		float: left;
+		/* line-height: 1rem; */
+		margin:0.1rem 0.02rem;
+
+    }
+    .icons div img{
+    	width: 60%;
+    	height: 70%;
+    	/* border: 1px solid #000; */
+    	/* margin: 0 auto; */
+    	/* text-align: center; */
+		margin-left: 0.24rem;
+    }
+    .icons div p{
+    	font-size: 0.25rem;
+    	text-align: center;
+    }
+    /* 秒杀 */
+    .kill{
+    	width:100%;
+    	/* height: 3.0rem; */
+    	border-bottom: 3px solid #ccc;
+
+       
+    }
+    .kill .time{
+    	width: 100%;
+    	height: 15%;
+    	/* border: 1px solid #000; */
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .kill .time div{
+    	width:1.2rem;
+        height:0.42rem;
+        /* border: 1px solid #000; */
+        float:left;
+    }
+    .kill .time div img{
+        width: 100%;
+        height: 100%;
+    }
+    .kill .time div .eight{
+        font-size:0.3rem;
+        font-weight:bold;
+        text-align:center;
+        line-height:0.42rem;
+        display:block;
+        /* border-right:2px solid #ccc; */
+    }
+    /* 倒计时 */
+    .kill .time .settime
+    {
+        width:1.9rem;
+        /* border: 1px solid #000; */
+        padding: 0.05rem 0;
+        box-sizing:border-box;
+
+    }
+    .kill .time .settime span:nth-child(odd){
+            
+            
+            border: 1px solid #dfdfdf;
+            
+    }
+
+
+
+    .kill .time .bord{
+        width:1.9rem;
+    }
+    .kill .time .bord .scro{
+        color:red;
+        line-height:0.42rem;
+        text-align:right;
+        display:block;
+    }
+    .kill .main{
+        width:100%;
+        height:85%;
+        /* border: 1px solid #000; */
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        padding:0.1rem 0;
+        box-sizing: border-box;
+    }
+    .kill .main div{
+        width:31%;
+        height:45%;
+        /* border: 1px solid #000;  */
+        text-align:center; 
+        padding-top:0.1rem;
+        box-sizing: border-box;
+        margin:0.05rem;
+    }
+    .kill .main div img{
+        width: 80%;
+        height: 80%;
+        
+    }
+    .kill .main div p:nth-child(2){
+        font-weight:bold;
+        color:red;
+        font-size:0.3rem;
+    }
+    .kill .main div p:nth-child(3){
+        color:#ccc;
+        font-size:0.2rem;
+        text-decoration: line-through;
+    }
+    /*  长条图  */
+    .cc{
+        width:100%;
+        height:1.8rem;
+        border-bottom: 0.03rem solid #ccc;
+        /* border: 1px solid #000; */
+    }
+    .cc img{
+        width: 100%;
+        height: 100%;
+    }
+    /* 精选 */
+    .sele{
+        width:100%;
+        height: 3.4rem;
+        border-bottom: 3px solid #ccc;
+       
+    }
+    .sele .time{
+        width: 100%;
+        height: 15%;
+        /* border: 1px solid #000; */
+        box-sizing: border-box;
+        background: linear-gradient(lightgreen, lightblue);
+    }
+    .sele .time div{
+        width:1.3rem;
+        height:0.42rem;
+        /* border: 1px solid #000; */
+        float:left;
+    }
+    .sele .time div img{
+        width: 100%;
+        height: 100%;
+    }
+    .sele .time div:first-child{
+        font-size:0.25rem;
+        font-style: italic;
+        text-align:center;
+        line-height:0.42rem;
+        display:block;
+    }
+    .sele .time div:nth-child(2){
+        width: 1.5rem;
+        margin-left: 1.2rem;
+    }
+    .sele .time .bord{
+        width:2.25rem;
+    }
+    .sele .time .bord .scro{
+        color:red;
+        line-height:0.42rem;
+        text-align:right;
+        display:block;
+    }
+    .sele .life{
+        width: 100%;
+        /* height:3.0rem; */
+        /* border: 1px solid #000; */
+        overflow: hidden;
+    }
+
+    .sele .life div p:nth-child(1){
+        font-size: 0.30rem;
+        font-weight: bold;
+    }
+    .sele .life div p:nth-child(2){
+        color: #cca;
+        font-size: 0.23rem;
+    }
+    .sele .life div:nth-child(1){
+        width: 3.5rem;
+        height: 3.03rem;
+        /* border: 1px solid #000; */
+        position: relative;
+        float: left;
+    }
+    .sele .life div:nth-child(1) img{
+        width: 60%;
+        height: 80%;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+    }
+    .sele .life div:nth-child(2){
+        width: 2.82rem;
+        height: 1.5rem;
+        /* border: 1px solid #000; */
+        float: left;
+        position: relative;
+    }
+    .sele .life div:nth-child(2) img{
+        width: 50%;
+        height: 80%;
+        position: absolute;
+        top: 10%;
+        left: 48%;
+    }
+    .sele .life div:nth-child(3){
+        width: 2.82rem;
+        height: 1.5rem;
+        /* border: 1px solid #000; */
+        float: left;
+        position: relative;
+    }
+    .sele .life div:nth-child(3) img{
+        width: 48%;
+        height: 80%;
+        position: absolute;
+        top: 10%;
+        left: 48%;
+    }
+    /* 下拉部分 */
+    .every{
+        width: 6.4rem;
+        /* height: 5.0rem; */
+        /* border: 1px solid #000; */
+        margin-bottom: 1.0rem;
+    }
+    .every .like{
+        width: 100%;
+        height: 0.5rem;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items:center;
+        background:linear-gradient(pink, skyblue);
+    }
+    .every .like div:nth-child(1){
+        width: 30%;
+        height: 80%;
+        border-right: 2px solid skyblue;
+        font-weight: bold;
+        font-size: 0.25rem;
+        font-style: italic;
+        padding-left: 0.2rem;
+        box-sizing:border-box;
+    }
+    .every .like div:nth-child(2){
+        width: 67%;
+        height: 80%;
+        text-align: right;
+        color: red;
+        font-size: 0.2rem;
+        line-height: 0.4rem;
+    }
+    .every .things{
+        width: 100%;
+        /* height: 3.0rem; */
+        /* border: 1px solid #000; */
+    }
+    .every .things div{
+        width: 100%;
+        height: 1.5rem;
+        /* border: 1px solid #000; */
+        position: relative;
+        margin-top: 0.2rem;
+    }
+    .every .things div img{
+        width: 28%;
+        height: 100%;
+    }
+    .every .things div span:nth-child(2){
+        position: absolute;
+        top: 10%;
+        left: 31%;
+        font-size: 0.24rem;
+    }
+    .every .things div span:nth-child(3){
+        position: absolute;
+        top: 73%;
+        left: 30%;
+        font-size: 0.3rem;
+        color: red;
+    }
+    .every .things .hid{
+        display: none;
+    }
+    .every .things .more{
+        width: 100%;
+        height: 0.7rem;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.25rem;
+        color: #ccd;
+        /* border: 1px solid #000; */
+    }
+/* 脚部 */
+.foot{
+	margin-top: 10px;
+	width: 100%;
+	height:0.9rem;
+	/* border: 1px solid #000; */
+	position: fixed;
+	bottom:0%;
+	display: flex;
+	justify-content:space-between;
+	background: white;
+}
+.foot div{
+	width: 2.0rem;
+	height: 0.9rem;
+	/* border: 1px solid #000; */
+}
+.foot div img{
+	/* border: 1px solid #000; */
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
